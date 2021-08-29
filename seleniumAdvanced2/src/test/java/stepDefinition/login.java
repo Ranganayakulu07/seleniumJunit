@@ -102,7 +102,7 @@ public class login {
 		  }
 		  
 		  JavascriptExecutor jse=(JavascriptExecutor) driver;
-		  jse.executeScript("document.getElementById('txtJourneyDate').value='26/08/2021'");
+		  jse.executeScript("document.getElementById('txtJourneyDate').value='28/08/2021'");
 		  jse.executeScript("document.getElementById('txtReturnJourneyDate').value='29/08/2021'");
 		  Thread.sleep(5000);
 		  
